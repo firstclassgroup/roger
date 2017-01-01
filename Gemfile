@@ -38,6 +38,8 @@ gem 'execjs'
 # Twitter社が提供しているCSSとJavaScriptのフレームワーク
 gem 'twitter-bootstrap-rails'
 
+gem 'browser', '~> 2.2.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

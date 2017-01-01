@@ -16,6 +16,34 @@ body{
   font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
+.header_pc {
+  text-align: center;
+  top: 20px;
+  font-size: 130%;
+  background-color: #000000;
+  color:#C0C0C0;
+  height: 50px;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  a:link { color:#C0C0C0; text-decoration:none }
+  a:visited { color:#C0C0C0; text-decoration:none }
+  a:hover { color:#C0C0C0; text-decoration:none }
+  a:active { color:#C0C0C0; text-decoration:none }
+}
+
+.header_pc.link {
+  margin-right: -10px;
+  text-align: right;
+}
+
+.header_pc.link.sp {
+  position:relative; left:25px;
+  z-index:3;
+}
+
+.header_pc.link.under {
+  z-index: 1;
+}
+
 .confirm_header {
   color:#C0C0C0;
   font-size: 300%;
