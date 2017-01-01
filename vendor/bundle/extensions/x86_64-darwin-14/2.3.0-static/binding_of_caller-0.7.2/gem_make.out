@@ -1,0 +1,16 @@
+current directory: /Users/sako/firstone/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/Users/sako/.rbenv/versions/2.3.0/bin/ruby -r ./siteconf20170101-50998-1qgv2dl.rb extconf.rb
+
+current directory: /Users/sako/firstone/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/sako/firstone/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/sako/firstone/vendor/bundle/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.
