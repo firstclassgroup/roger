@@ -3,13 +3,13 @@ body {
 }
 
 .top {
-  background-color: #000000;
-  height: auto;
-  max-width: 50%;
+  background-color: #0f171a;
   margin-bottom:10px;
+  text-align: center;
 }
 
 .top .top_icon{
+  text-align: center;
   height: auto;
   max-width: 200%;
 }
@@ -21,12 +21,17 @@ body {
 
 #top_icon{
   height: auto;
-  max-width: 200%;
+  max-width: 100%;
+}
+
+#pc_top_icon{
+  height: auto;
+  max-width: 30%;
 }
 
 #slid_roger {
   height: auto;
-  max-width: 1000%;
+  max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -34,7 +39,23 @@ body {
 
 #slid_richrd {
   height: auto;
-  max-width: 1000%;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pc_slid_roger {
+  height: auto;
+  max-width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pc_slid_richrd {
+  height: auto;
+  max-width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -80,6 +101,50 @@ body {
 .menu_area_2 .arow{
   color:#C0C0C0;
   text-align: right;
+}
+
+.pc_menu_area_1 {
+  font-size: 150%;
+  background-color: #222222;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  a:link { color:#C0C0C0; text-decoration:none }
+  a:visited { color:#C0C0C0; text-decoration:none }
+  a:hover { color:#C0C0C0; text-decoration:none }
+  a:active { color:#C0C0C0; text-decoration:none }
+  padding: 40px 50px;
+}
+
+.pc_menu_area_1 .title{
+  line-height: 50%;
+  text-align: center;
+}
+
+.pc_menu_area_1 .arow{
+  color:#C0C0C0;
+  text-align: right;
+  line-height: 50%;
+}
+
+.pc_menu_area_2 {
+  font-size: 150%;
+  background-color: #000000;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  a:link { color:#C0C0C0; text-decoration:none }
+  a:visited { color:#C0C0C0; text-decoration:none }
+  a:hover { color:#C0C0C0; text-decoration:none }
+  a:active { color:#C0C0C0; text-decoration:none }
+  padding: 40px 50px;
+}
+
+.pc_menu_area_2 .title{
+  text-align: center;
+  line-height: 50%;
+}
+
+.pc_menu_area_2 .arow{
+  color:#C0C0C0;
+  text-align: right;
+  line-height: 50%;
 }
 
 ul{
